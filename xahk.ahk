@@ -292,7 +292,7 @@ MobGrind:
 		;Delay between LEFT clicks is controled by sleep delay above * value tested here (ie 12)
 		; Example = 100ms * 12 = 1.2 seconds
 		;This method allows AHK to better exit this mode and respond quicker to Stop command
-		if (Delay >= 10)
+		if (Delay >= 5)
 		{
 			; If delay counter reached, reset counter and send a LEFT click
 			Delay := 0
