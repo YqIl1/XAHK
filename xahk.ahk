@@ -7,7 +7,7 @@ SetTitleMatchMode 2
 SetWorkingDir %A_ScriptDir%
 ;==================================================================================================
 ; Globle values
-wintitle := Minecraft X-AHK V0.4
+wintitle := Minecraft X-AHK VR
 targettitle := none
 targetwinclass := GLFW30 ;This is the Class of a Java program used to check we have a Minecraft prog
 ModeText := Empty
@@ -35,8 +35,8 @@ Hotkey  !^e,	JumpFly			; Pressing ctrl + alt + e will dubble hit space and fire 
 Hotkey  !^c,	Concrete		; Pressing ctrl + alt + c will start concrete farming
 Hotkey  !^m,	MobGrind		; Pressing ctrl + alt + m will start mob grinding
 Hotkey	!^s,	Stop			; Pressing ctrl + alt + s will stop it
-Hotkey  !^w,    SelectWindow 	;Allows user to select window to control by hovering mouse over it and
-								;Pressing ctrl + alt + w
+Hotkey  !^r,    SelectWindow 	;Allows user to select window to control by hovering mouse over it and
+								;Pressing ctrl + alt + r
 
 ;===================================================================================================
 ;Menu
